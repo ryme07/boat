@@ -2,6 +2,7 @@
 Parcel bundler template 
 
 This project was generated with Parcel with latest version.
+It is a 3D scene use THREEJS.
 
 ## Install
 
@@ -15,6 +16,3 @@ Run `npm run dev` for a dev server and it is open on localhost.  The app will au
 
 Run `npm run prod` to build the project. The build artifacts will be stored in the `dist/` directory. 
 
-## Upcoming features 
-
-A THREEJS branch offers a basic scene configuration. 
