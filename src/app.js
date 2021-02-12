@@ -5,7 +5,6 @@ import createRenderer from "./js/createRenderer";
 import createCamera from "./js/createCamera";
 import createScene from "./js/createScene";
 import createSea from "./js/createSea";
-import handleWindowResize from "./js/handleWindowResize";
 
 const renderer = createRenderer();
 const scene = createScene();
@@ -24,3 +23,12 @@ animate(() => {
 
 // RESIZE SCENE
 window.addEventListener("resize", handleWindowResize, false);
+
+function handleWindowResize() {
+  const height = window.innerHeight;
+  const width = window.innerWidth;
+
+  renderer.setSize(width, height);
+  camera.aspect = width / height;
+  camera.updateProjectionMatrix();
+}
