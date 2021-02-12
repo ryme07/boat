@@ -1,7 +1,8 @@
 # parcel-bundler
 Parcel bundler template 
 
-This project was generated with Parcel with latest version.
+This project was generated with Parcel latest version.
+
 It is a 3D scene use THREEJS.
 
 ## Install
