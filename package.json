@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "dev": "parcel src/index.html --open",
     "prod": "parcel build src/index.html"
   },
@@ -16,5 +17,8 @@
   },
   "dependencies": {
     "three": "^0.125.2"
+  },
+  "resolutions": {
+    "node-forge": "0.10.0"
   }
 }
