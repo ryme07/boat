@@ -6,7 +6,8 @@
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
     "dev": "parcel src/index.html --open",
-    "prod": "parcel build src/index.html"
+    "prod": "parcel build src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
   },
   "keywords": [],
   "author": "",
